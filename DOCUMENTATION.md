@@ -2,12 +2,12 @@
 ## How to add your plugins
 FunHub supports two types of plugins that can be added via the usersPlugins.json file located in your home directory (~/.funhub/).
 
-1. Local Plugins
-A local .py file stored on your PC.
+1. Local Plugins <br/>
+  A local .py file stored on your PC.
 
-* name: The display name in the FunHub menu.
+  * name: The display name in the FunHub menu.
 
-* pluginPath: The full path to the script.
+  * pluginPath: The full path to the script.
 
 Example:
 
@@ -22,14 +22,14 @@ Example:
   ]
 }
 ```
-2. Remote Plugins
-Plugins uploaded to PyPI.
+2. Remote Plugins <br/>
+  Plugins uploaded to PyPI.
 
-* name: The display name in the menu.
+  * name: The display name in the menu.
 
-* packageName: The name of the project on PyPI (for pip install).
+  * packageName: The name of the project on PyPI (for pip install).
 
-* commandName: The command used to launch the plugin from the terminal.
+  * commandName: The command used to launch the plugin from the terminal.
 
 Example:
 
