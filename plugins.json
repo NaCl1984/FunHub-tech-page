@@ -11,6 +11,12 @@
             "name":"Minesweeper",
             "packageName":"funHub-minesweeper",
             "commandName":"funhub-minesweeper"
+        },
+        {
+            "type":"remote",
+            "name":"Snake",
+            "packageName":"funhub-snake",
+            "commandName":"funhub-snake"
         }
     ]
 }
